@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        //Ausblenden von Js Dateien zu denen es eine TS Datei gibt.
+        "**/*.js": { "when": "$(basename).ts"}
+    }
+}
