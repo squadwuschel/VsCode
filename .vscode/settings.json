@@ -2,6 +2,6 @@
 {
     "files.exclude": {
         //Ausblenden von Js Dateien zu denen es eine TS Datei gibt.
-        "**/*.js": { "when": "$(basename).ts"}
+        //"**/*.js": { "when": "$(basename).ts"}
     }
 }

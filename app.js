@@ -1,8 +1,8 @@
 var App;
 (function (App) {
     /**
-    * Person
-    */
+     * Person
+     */
     var Person = (function () {
         function Person(name) {
             this.name = name;
@@ -16,7 +16,6 @@ var App;
     })();
     App.Person = Person;
 })(App || (App = {}));
-
 //VS Code for TypeScript
 //https://code.visualstudio.com/Docs/languages/typescript
 var person = new App.Person("Hallo Welt");
